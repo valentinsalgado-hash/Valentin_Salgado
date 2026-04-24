@@ -418,19 +418,17 @@
 </div>
 </section>
 
-  <script>
-  function toggleImages(id) {
-    var element = document.getElementById(id);
-    if (element.style.display === "none") {
-      element.style.display = "block";
-    } else {
-      element.style.display = "none";
-    }
+<script>
+function toggleImages(id) {
+  var element = document.getElementById(id);
+  
+  if (element.style.display === "flex") {
+    element.style.display = "none";
+  } else {
+    element.style.display = "flex";
   }
-  </script>
-
-</body>
-</html>
+}
+</script>
 
 </body>
 </html>
