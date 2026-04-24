@@ -355,7 +355,7 @@ a:hover {
 }
 
 .project-images {
-  display: flex !important;
+  display: flex;
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
@@ -363,8 +363,8 @@ a:hover {
 }
 
 .project-images img {
-  width: 130px !important;
-  height: 90px !important;
+  width: 130px;
+  height: 90px;
   object-fit: cover;
   border-radius: 8px;
   display: block;
