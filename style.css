@@ -606,8 +606,8 @@ a:hover {
 }
 
 .project-images img {
-  width: 100%;
-  max-width: 250px;
+  width: 120px;
+  height: auto;
   margin: 5px;
-  border-radius: 8px;
+  border-radius: 6px;
 }
