@@ -600,3 +600,14 @@ a:hover {
   border-radius: 10px;
   border: 1px solid #ddd;
 }
+
+.project-images {
+  margin-top: 15px;
+}
+
+.project-images img {
+  width: 100%;
+  max-width: 250px;
+  margin: 5px;
+  border-radius: 8px;
+}
