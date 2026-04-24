@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Valentin Salgado | Portfolio</title>
   <link rel="stylesheet" href="style.css">
-</head>
+<head>
 <body>
-  
 
 <!-- HOME -->
 <header id="home">
@@ -69,11 +68,6 @@
 <!-- SELECTED PROJECTS -->
 <section id="projects" class="section-container projects-section">
   <h2>Selected Projects</h2>
-  <p class="section-subtitle">
-    Selected technical projects combining motorsport engineering, aerospace analysis,
-    software development, and numerical simulation.
-  </p>
-
   <div class="projects-grid">
 
 
@@ -114,31 +108,32 @@
 <article class="project-card">
   <div class="project-accent"></div>
   <div class="project-top">
-    <h3>UTV Competition Vehicle Preliminary Design</h3>
-    <p class="project-context">FDC Diseño y Desarrollo | 2025 – Present</p>
+    <h3>ECG Signal Generator and Lead Selection System</h3>
+    <p class="project-context">Academic Project | Biomedical Instrumentation | 2024</p>
   </div>
 
   <p class="project-summary">
-    Preliminary design of a competition UTV under FIA-oriented constraints,
-    focused on vehicle layout, front suspension kinematics, safety cage design,
-    and CAD integration in large assemblies.
+    Development of a biomedical device capable of generating ECG and sinusoidal signals, 
+    allowing the selection of different leads for testing and analysis of electrocardiography systems.
   </p>
 
   <ul class="project-highlights">
-    <li>Defined key vehicle layout and packaging concepts.</li>
-    <li>Designed the safety cage under FIA requirements.</li>
-    <li>Developed front suspension geometry with OptimumKinematics.</li>
-    <li>Worked with large SolidWorks assemblies for system integration.</li>
-    <li>Project developed in a two-person team under senior engineering guidance.</li>
+    <li>Developed embedded software using an ESP32 microcontroller.</li>
+    <li>Implemented signal generation including ECG waveform simulation and sinusoidal signals.</li>
+    <li>Designed a user interface using a membrane keypad and LCD display.</li>
+    <li>Integrated hardware components including DAC output, signal routing, and control logic.</li>
+    <li>Designed and prototyped the device enclosure using 3D printing.</li>
   </ul>
 
-
+  <div class="project-images">
+    <img src="images/ecg1.jpg" alt="ECG device prototype">
+    <img src="images/ecg2.jpg" alt="ECG circuit and assembly">
+  </div>
 
   <div class="project-links">
-    <a href="utv.html">View Project</a>
+    <a href="#">View Details</a>
   </div>
 </article>
-
 <!-- TN  --------------------------- -->
 
   
@@ -422,6 +417,20 @@
   </ul>
 </div>
 </section>
+
+  <script>
+  function toggleImages(id) {
+    var element = document.getElementById(id);
+    if (element.style.display === "none") {
+      element.style.display = "block";
+    } else {
+      element.style.display = "none";
+    }
+  }
+  </script>
+
+</body>
+</html>
 
 </body>
 </html>
