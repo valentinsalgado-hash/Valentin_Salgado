@@ -607,7 +607,7 @@ a:hover {
 
 .project-images img {
   width: 120px;
-  height: auto;
+  height: 120px;
   margin: 5px;
   border-radius: 6px;
 }
