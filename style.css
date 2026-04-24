@@ -618,3 +618,31 @@ a:hover {
   object-fit: cover;
   border-radius: 8px;
 }
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.skills-card {
+  padding: 18px;
+  min-height: auto;
+}
+
+.skills-card h3 {
+  margin-bottom: 14px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  font-size: 0.78rem;
+  padding: 6px 10px;
+  line-height: 1.1;
+}
