@@ -129,7 +129,7 @@
     <a href="#" onclick="toggleImages('ecg-project'); return false;">View Details</a>
   </div>
 
-  <div id="ecg-project" class="project-images" style="display: none;">
+  <div id="ecg-project" class="project-images">
     <img src="images/ecg1.jpeg" alt="ECG device prototype">
     <img src="images/ecg2.jpeg" alt="ECG circuit">
   </div>
@@ -421,12 +421,7 @@
 <script>
 function toggleImages(id) {
   var element = document.getElementById(id);
-  
-  if (element.style.display === "flex") {
-    element.style.display = "none";
-  } else {
-    element.style.display = "flex";
-  }
+  element.classList.toggle("open");
 }
 </script>
 
