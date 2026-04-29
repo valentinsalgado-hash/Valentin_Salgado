@@ -444,26 +444,31 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 40px;
+}
+
+.hero-text {
+  max-width: 700px;
 }
 
 .profile-photo {
-  width: 130px;
-  height: 130px;
+  width: 170px;   /* antes 130 → ahora más grande */
+  height: 170px;
   object-fit: cover;
   border-radius: 50%;
-  border: 4px solid var(--blue-soft);
+  border: 5px solid var(--blue-soft);
   box-shadow: var(--shadow);
 }
 
 @media (max-width: 768px) {
   .hero-content {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: flex-start;
   }
 
   .profile-photo {
-    width: 110px;
-    height: 110px;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
   }
 }
