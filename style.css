@@ -444,8 +444,7 @@ a:hover {
 .hero-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 60px;
+  align-items: flex-start; 
 }
 
 .hero-text {
@@ -457,6 +456,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 /* FOTO GRANDE Y PRO */
